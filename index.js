@@ -5,7 +5,7 @@ const client = new Client({
     intents: [GatewayIntentBits.Guilds]
 });
 
-const TOKEN = "MTQ3NTU3ODgyNzczNTQzNzQzMw.GDaU09.j9viEAkjauhPKFOpK-pOJUN4Hd5AI1VjRG0xf4";
+const TOKEN = "MTQ3NTU3ODgyNzczNTQzNzQzMw.Gdwtr-.VFntpPevctrkXOGN5_xwN9nzze7h94aafuvmzA";
 const GUILD_ID = "1222333420810670080";
 const CHANNEL_ID = "1423656611162886317";
 
@@ -33,3 +33,4 @@ client.once('ready', async () => {
 });
 
 client.login(TOKEN);
+
