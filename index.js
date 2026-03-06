@@ -7,7 +7,7 @@ const client = new Client({
 
 const TOKEN = process.env.TOKEN;;
 const GUILD_ID = "1222333420810670080";
-const CHANNEL_ID = "1423656611162886317";
+const CHANNEL_ID = "1446906108428943400";
 
 client.once('ready', async () => {
     console.log(`Bot online sebagai ${client.user.tag}`);
@@ -33,5 +33,6 @@ client.once('ready', async () => {
 });
 
 client.login(TOKEN);
+
 
 
